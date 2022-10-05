@@ -24,6 +24,7 @@ public class DemoApplication {
 			repository.save(new Usuario("alfredo","alfredo@gmail.com"));
 			repository.save(new Usuario("ana maria","anamaria@gmail.com"));
 			repository.save(new Usuario("pablo","pablo@gmail.com"));
+			repository.save(new Usuario("daniel","daniel@gmail.com"));
 
 			for (Usuario customer : repository.findAll()) {
 				log.info(customer.toString());
